@@ -37,3 +37,7 @@ person['location'] = 'Narayangonj'
 # It will update the value of the key location
 
 print(person)
+
+person['hobbies'].append('Playing')
+# It will add the value Playing to the list of hobbies
+

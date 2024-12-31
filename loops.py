@@ -16,4 +16,13 @@ names = ["Jahir", "Raihan", "Rahat", "Rakib", "Rahim"]
 for name in names: 
     print(name)
 
-# 
+cars = ["Toyota", "Nissan", "BMW", "Audi", "Mercedes", "Ferrari", "Lamborghini", "Ford", "Chevrolet", "Jeep"]
+
+for car in cars:
+    print(car)
+
+
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+sum = len(numbers)
+for number in numbers:
+    print(f" {number} + {sum} =  {number+sum}") 
