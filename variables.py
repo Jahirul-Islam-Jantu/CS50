@@ -5,3 +5,11 @@ name = input("Name: ")
 # print("Hello " + myName) 
 print(f"Hello, {name}")
 # This is a new version of string concat method in python, this is like template literal in JavaScript
+
+
+user = "Hello"
+print(user)
+user = "He"
+print(user)
+user = 123
+print(user)
