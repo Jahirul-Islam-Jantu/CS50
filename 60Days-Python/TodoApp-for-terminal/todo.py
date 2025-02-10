@@ -6,8 +6,10 @@ while True:
     user_input = user_input.strip()
     match user_input:
         case "add":
-            todo = input("Add Item: ")
+            todo = input("Add Item: ") + "\n"
             todos.append(todo)
+            file = open("todos.txt", "w")
+            file.writelines(todos)
         case "show":
             for index, item in enumerate(todos):
                 item = item.title()
