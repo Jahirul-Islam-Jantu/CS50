@@ -1,13 +1,16 @@
 
-
-todos = []
 while True:
     user_input = input("Please Type add , show, edit, complete or exit: ")
     user_input = user_input.strip()
     match user_input:
         case "add":
             todo = input("Add Item: ") + "\n"
+
+            file = open("todos.txt", "r")
+            todos = file.readlines()
+
             todos.append(todo)
+
             file = open("todos.txt", "w")
             file.writelines(todos)
         case "show":
