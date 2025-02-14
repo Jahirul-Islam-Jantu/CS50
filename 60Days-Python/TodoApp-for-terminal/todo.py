@@ -13,7 +13,12 @@ while True:
             todos.append(todo)
 
             file = open("todos.txt", "w")
+
+
             file.writelines(todos)
+
+            file = open("todos2.txt", "w")
+            file.close()
             file.close()
 
         case "show":
